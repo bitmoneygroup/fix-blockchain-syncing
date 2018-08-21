@@ -6,11 +6,11 @@ git clone https://github.com/bitmoneygroup/fix-blockchain-syncing.git
 
 cd fix-blockchain-syncing
 
-► <b>STEP 3 : GIVE READ AND WRITE PERMISSION TO DOWNLOADED UPDATE SCRYPT FILE</b>
+► <b>STEP 3 : GIVE READ AND WRITE PERMISSION TO DOWNLOADED SCRYPT FILE</b>
   
 chmod 755 fix.sh
 
-► <b>STEP 4 : RUNNING AUTO UPDATE ADDNODE SCRYPT<b/>
+► <b>STEP 4 : RUNNING AUTO FIX BLOCKCHAIN SYNCING SCRYPT<b/>
   
 bash fix.sh
 
