@@ -1,5 +1,6 @@
 #!/bin/bash
 RED='\e[93m'
+NC='\e[932'
 systemctl stop BITMONEY.service
 echo -e "${RED}[ 10% ] STOPPING BIT MONEY SERVER${NC}"
 sleep 10
