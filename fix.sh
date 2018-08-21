@@ -20,3 +20,7 @@ echo -e "${RED}[ 95% ] RESTARTING BIT MONEY SERVER${NC}"
 systemctl start BITMONEY.service
 sleep 5
 echo -e "${RED}[ 100% ] BIT MONEY SERVER STARTED SUCCESSFULLY${NC}"
+sleep 5
+echo -e "${RED}====>x> VERIFYING PROPER BLOCK SYNCING AND EXECUTING "bitmoney-cli getinfo" COMMAND <x<====${NC}"
+sleep 20
+bitmoney-cli getinfo
